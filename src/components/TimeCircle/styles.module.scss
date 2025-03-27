@@ -1,0 +1,54 @@
+.circleContainer {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+  }
+  
+  .yearDisplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .currentYear {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .eventDate {
+    font-size: 1.2rem;
+    color: #5D5F6A;
+    margin-top: 0.5rem;
+  }
+  
+  .sliderContainer {
+    padding: 2rem 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .eventCard {
+    background: #F8F8F8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    min-height: 120px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  
+    &.nobel {
+      border-left: 4px solid #D4AF37;
+    }
+  }
+  
+  .nobelBadge {
+    background: #D4AF37;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+  }
